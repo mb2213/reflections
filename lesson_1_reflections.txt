@@ -1,0 +1,20 @@
+git did not install.
+Had to re-boot system, then try to install....took forever to install program to start
+
+sublime costs 70$ wth? why are you recommending a program that costs 70$
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+Some applications are not designed for version control. Software development
+frequently (almost always in oo) have multiple files that are related to each
+ other although I can already see this "repository" idea will get really
+ messy really fast in a large application.
+
+
+Where did my previous change go to?
+
+ Now that you have your workspace set up, what do you want to try using Git for?
+
+ Writing code.
