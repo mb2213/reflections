@@ -5,4 +5,7 @@ Why might you want to always pull changes manually rather than having Git automa
  You might pull in changes that you do not want; changes that were made by other individuals. You only want to sync when you are ready to sync
 
 
- 
+ Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ Fork is when you take someones stuff and want to retain their contribution, you want to add to their project.
+ Clone is when you copy a repository, local or remote
+ Branch is when you want to make local changes to a repository without changing the master.
