@@ -1,7 +1,7 @@
 git did not install.
 Had to re-boot system, then try to install....took forever to install program to start
 
-sublime costs 70$ wth? why are you recommending a program that costs 70$
+sublime costs 70$ why are you recommending a program that costs 70$
 
 Why do you think some version control systems, like Git, allow saving
 multiple files in one commit, while others, like Google Docs, treat each file
@@ -13,8 +13,11 @@ frequently (almost always in oo) have multiple files that are related to each
  messy really fast in a large application.
 
 
-Where did my previous change go to?
+Where did my previous change go to? All my answers have been unsaved.
 
  Now that you have your workspace set up, what do you want to try using Git for?
-
  Writing code.
+
+atom does not work with git on windows.
+ solution atom cannot be running when doing commits. If it is it will not work.
+
