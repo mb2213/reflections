@@ -9,3 +9,6 @@ Why might you want to always pull changes manually rather than having Git automa
  Fork is when you take someones stuff and want to retain their contribution, you want to add to their project.
  Clone is when you copy a repository, local or remote
  Branch is when you want to make local changes to a repository without changing the master.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+ Keeps you up-to-date with changes from other contributers.
