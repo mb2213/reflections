@@ -1,12 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
- Create the git metadata for the version control repository. nothing is checked
- into the repository. you need to mkelem youself.
+ Create the git metadata for the version control repository. Nothing is checked into the repository. You need to mkelem yourself.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
- The staging area is an intermediate step to get a file into the source control
-  system. you can have files i the Working directory that are not in the staging
-  area, nothing is IN source control yet.
+ The staging area is an intermediate step to get a file into the source control system. You can have files in the Working directory that are not in the staging area, nothing is IN source control yet.
 
-  Test
+How can you use the staging area to make sure you have one commit per logical change?
+  You can use git diff to compare the working directory to the stage directory.
+  You can move files one at a time to the staging directory, or move changes one at a time to the staging directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  Teams/Individuals working on different independent features. 
+  You can progress on two different changes at the same time, only modifying the single part of the app that is being changed.
+  Not dependent on other people committing good code, or compatible code.
+
+How do the diagrams help you visualize the branch structure?
+  It shows the parents of each checkout and will also show unreachable commits. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+After the merge the branches are combined, the changes on both branches are now on the same branch. The diagram shows how the branches were merged.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro automatic merging - faster
+Pro manual merging - I know the code, the program git doesn't I know what the code is doing and therefore will make knowledgeable merges. 
+
+
